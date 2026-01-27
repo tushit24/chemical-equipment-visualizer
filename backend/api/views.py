@@ -1,4 +1,7 @@
 import pandas as pd
+
+from django.http import FileResponse
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser
@@ -7,6 +10,7 @@ from rest_framework.permissions import IsAuthenticated
 
 from .models import Dataset
 from .serializers import DatasetSerializer
+from .pdf_utils import generate_dataset_pdf
 
 
 class CSVUploadView(APIView):
@@ -45,6 +49,24 @@ class CSVUploadView(APIView):
 
 
 class DatasetHistoryView(ListAPIView):
-    permission_classes = [IsAuthenticated]   # 🔒 TOKEN PROTECTED
+    permission_classes = [IsAuthenticated]   # 🔒 Token protected
     queryset = Dataset.objects.order_by('-uploaded_at')[:5]
     serializer_class = DatasetSerializer
+
+
+class DatasetPDFView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, pk):
+        try:
+            dataset = Dataset.objects.get(pk=pk)
+        except Dataset.DoesNotExist:
+            return Response({"error": "Dataset not found"}, status=404)
+
+        pdf_buffer = generate_dataset_pdf(dataset)
+
+        return FileResponse(
+            pdf_buffer,
+            as_attachment=True,
+            filename=f"{dataset.filename}_report.pdf"
+        )
