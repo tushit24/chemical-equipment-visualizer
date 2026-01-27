@@ -3,6 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework.generics import ListAPIView
+from rest_framework.permissions import IsAuthenticated
 
 from .models import Dataset
 from .serializers import DatasetSerializer
@@ -42,6 +43,8 @@ class CSVUploadView(APIView):
 
         return Response(summary)
 
+
 class DatasetHistoryView(ListAPIView):
+    permission_classes = [IsAuthenticated]   # 🔒 TOKEN PROTECTED
     queryset = Dataset.objects.order_by('-uploaded_at')[:5]
     serializer_class = DatasetSerializer
