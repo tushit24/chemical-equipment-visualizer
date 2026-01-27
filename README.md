@@ -29,28 +29,31 @@ This project provides:
 ---
 
 ## 🏗️ System Architecture
+┌───────────────────────────┐
+│        React Web App       │
+│  (Axios, Chart.js, React)  │
+└─────────────▲─────────────┘
+              │ REST API (JSON)
+              │
+┌─────────────┴─────────────┐
+│      Django Backend        │
+│ (Django REST Framework)   │
+│        + Pandas            │
+└───────▲───────────▲───────┘
+        │           │
+        │ ORM       │ REST API
+        │           │
+┌───────┴───────┐   └────────────────────┐
+│ SQLite DB     │                        │
+│ (Datasets,   │                        │
+│ Stats, Time) │                        │
+└──────────────┘                        │
+                                        │
+                          ┌─────────────▼─────────────┐
+                          │     PyQt5 Desktop App      │
+                          │  (Matplotlib + Requests)  │
+                          └───────────────────────────┘
 
-            ┌────────────────────┐
-            │   React Web App     │
-            │ (Chart.js, Axios)  │
-            └─────────▲──────────┘
-                      │
-                      │ REST API
-                      │
-            ┌─────────┴──────────┐
-            │  Django Backend     │
-            │  (DRF + Pandas)     │
-            └─────────▲──────────┘
-                      │
-      ┌───────────────┴───────────────┐
-      │                               │
-┌─────────┴─────────┐ ┌──────────┴──────────┐
-│ SQLite Database │ │ PyQt5 Desktop App │
-│ (Datasets, Stats) │ │ (Matplotlib Charts) │
-└───────────────────┘ └─────────────────────┘
-
-
----
 
 ## 🧰 Tech Stack
 
