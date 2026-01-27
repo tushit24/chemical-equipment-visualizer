@@ -29,30 +29,33 @@ This project provides:
 ---
 
 ## 🏗️ System Architecture
-┌───────────────────────────┐
-│        React Web App       │
-│  (Axios, Chart.js, React)  │
-└─────────────▲─────────────┘
-              │ REST API (JSON)
-              │
-┌─────────────┴─────────────┐
-│      Django Backend        │
-│ (Django REST Framework)   │
-│        + Pandas            │
-└───────▲───────────▲───────┘
-        │           │
-        │ ORM       │ REST API
-        │           │
-┌───────┴───────┐   └────────────────────┐
-│ SQLite DB     │                        │
-│ (Datasets,   │                        │
-│ Stats, Time) │                        │
-└──────────────┘                        │
-                                        │
-                          ┌─────────────▼─────────────┐
-                          │     PyQt5 Desktop App      │
-                          │  (Matplotlib + Requests)  │
-                          └───────────────────────────┘
+
+## 🏗 System Architecture
+
+```text
+┌────────────────────────────┐
+│        React Web App        │
+│  (React, Axios, Chart.js)  │
+└──────────────▲─────────────┘
+               │ REST API (JSON)
+               │
+┌──────────────┴─────────────┐
+│       Django Backend        │
+│  (DRF + Pandas Processing) │
+└──────────────▲─────────────┘
+               │ ORM
+               │
+┌──────────────┴─────────────┐
+│       SQLite Database      │
+│   (Datasets, Stats, Time)  │
+└────────────────────────────┘
+               ▲
+               │ REST API
+┌──────────────┴─────────────┐
+│     PyQt5 Desktop App      │
+│ (Matplotlib + Requests)   │
+└────────────────────────────┘
+
 
 
 ## 🧰 Tech Stack
