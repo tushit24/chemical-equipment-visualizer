@@ -215,6 +215,22 @@ npm start
 Ensure backend server is running, then:
 python desktop_app.py
 
+---
+
+## 🚨 IMPORTANT: Web Deployment (Frontend Only)
+
+🔗 **Live Web Frontend (Vercel):**  
+👉 https://chemical-equipment-visualizer-phi.vercel.app/
+
+### ⚠️ Please Note
+- This deployed link contains **ONLY the React frontend** of the application.
+- The **Django backend** (CSV upload, data processing, database operations, and PDF generation) is **NOT deployed** and is intended to be run **locally**.
+- When the backend is running locally, the web frontend communicates with it via REST APIs as described.
+
+Backend setup instructions are provided in the following sections of this README.
+
+---
+
 
 ### Author
 Tushit Tiwari 
