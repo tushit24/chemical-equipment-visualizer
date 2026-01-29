@@ -1,0 +1,501 @@
+Equipment Name,Type,Flowrate,Pressure,Temperature
+Equipment_1,Compressor,96.38,30.94,40.62
+Equipment_2,Distillation Column,522.24,16.89,295.55
+Equipment_3,Reactor,710.82,39.88,542.73
+Equipment_4,Valve,468.16,64.39,580.81
+Equipment_5,Reactor,492.85,25.72,455.26
+Equipment_6,Distillation Column,381.73,73.54,441.42
+Equipment_7,Valve,41.35,41.17,354.24
+Equipment_8,Heat Exchanger,466.57,54.6,679.94
+Equipment_9,Distillation Column,249.7,41.27,382.28
+Equipment_10,Heat Exchanger,749.6,70.86,81.82
+Equipment_11,Distillation Column,109.44,54.98,697.82
+Equipment_12,Valve,791.2,30.01,396.0
+Equipment_13,Pump,36.99,16.45,151.36
+Equipment_14,Pump,351.93,79.03,572.06
+Equipment_15,Pump,201.25,5.08,484.96
+Equipment_16,Valve,164.08,30.02,54.41
+Equipment_17,Distillation Column,741.42,55.53,573.42
+Equipment_18,Pump,239.83,31.19,327.03
+Equipment_19,Reactor,463.91,48.31,13.86
+Equipment_20,Valve,16.02,72.2,159.76
+Equipment_21,Distillation Column,259.57,4.39,675.73
+Equipment_22,Pump,389.79,69.18,352.49
+Equipment_23,Heat Exchanger,240.6,45.39,68.29
+Equipment_24,Compressor,108.01,10.11,230.72
+Equipment_25,Distillation Column,223.38,32.28,503.48
+Equipment_26,Heat Exchanger,744.76,43.81,220.64
+Equipment_27,Compressor,272.68,16.51,199.06
+Equipment_28,Pump,69.83,15.63,268.23
+Equipment_29,Reactor,312.64,7.45,658.17
+Equipment_30,Valve,224.49,17.16,465.53
+Equipment_31,Pump,292.89,52.04,114.68
+Equipment_32,Heat Exchanger,276.34,28.34,482.01
+Equipment_33,Pump,666.33,74.29,283.04
+Equipment_34,Distillation Column,623.45,6.45,691.12
+Equipment_35,Valve,405.94,7.9,531.46
+Equipment_36,Distillation Column,255.43,17.3,364.79
+Equipment_37,Pump,673.32,74.03,187.46
+Equipment_38,Reactor,461.19,40.18,319.59
+Equipment_39,Valve,555.76,32.35,517.22
+Equipment_40,Valve,152.76,4.79,274.59
+Equipment_41,Heat Exchanger,83.19,42.47,285.48
+Equipment_42,Distillation Column,43.1,6.65,369.9
+Equipment_43,Heat Exchanger,24.05,44.79,665.88
+Equipment_44,Reactor,339.21,58.32,221.66
+Equipment_45,Compressor,705.27,39.79,124.02
+Equipment_46,Heat Exchanger,238.26,21.87,582.81
+Equipment_47,Compressor,568.48,37.65,587.24
+Equipment_48,Compressor,682.75,22.77,630.57
+Equipment_49,Compressor,574.91,72.53,697.7
+Equipment_50,Compressor,221.22,44.51,656.12
+Equipment_51,Pump,379.52,46.17,300.81
+Equipment_52,Pump,399.04,25.65,542.18
+Equipment_53,Pump,470.28,58.39,188.18
+Equipment_54,Distillation Column,454.08,30.35,697.97
+Equipment_55,Reactor,756.14,20.32,299.59
+Equipment_56,Reactor,298.48,33.75,146.87
+Equipment_57,Distillation Column,318.14,44.59,33.09
+Equipment_58,Valve,287.88,24.32,591.29
+Equipment_59,Compressor,197.6,54.33,46.03
+Equipment_60,Pump,69.42,36.33,675.84
+Equipment_61,Distillation Column,547.4,26.4,499.74
+Equipment_62,Compressor,733.18,45.86,688.43
+Equipment_63,Heat Exchanger,356.27,39.32,686.15
+Equipment_64,Reactor,552.1,39.23,357.83
+Equipment_65,Pump,655.91,28.52,403.23
+Equipment_66,Valve,764.34,65.18,172.48
+Equipment_67,Pump,160.69,55.44,575.11
+Equipment_68,Distillation Column,231.36,49.27,209.52
+Equipment_69,Pump,472.07,13.82,675.06
+Equipment_70,Compressor,223.77,52.13,340.76
+Equipment_71,Compressor,118.0,79.89,487.95
+Equipment_72,Pump,87.05,77.06,647.87
+Equipment_73,Distillation Column,740.52,3.17,566.9
+Equipment_74,Distillation Column,700.21,19.21,670.12
+Equipment_75,Heat Exchanger,694.27,11.38,132.64
+Equipment_76,Pump,791.83,65.1,645.13
+Equipment_77,Compressor,623.09,54.66,386.81
+Equipment_78,Reactor,450.12,47.2,574.02
+Equipment_79,Heat Exchanger,74.81,26.63,17.9
+Equipment_80,Valve,327.69,25.13,159.13
+Equipment_81,Heat Exchanger,131.48,50.93,420.63
+Equipment_82,Reactor,664.82,42.33,221.26
+Equipment_83,Compressor,5.01,68.71,676.72
+Equipment_84,Heat Exchanger,156.11,22.28,497.27
+Equipment_85,Pump,644.97,19.4,566.9
+Equipment_86,Compressor,727.52,36.9,466.65
+Equipment_87,Distillation Column,350.33,67.84,161.5
+Equipment_88,Pump,73.76,48.41,76.78
+Equipment_89,Compressor,418.12,16.3,142.52
+Equipment_90,Pump,114.87,51.16,14.78
+Equipment_91,Valve,287.82,16.08,71.47
+Equipment_92,Reactor,684.95,71.45,255.85
+Equipment_93,Heat Exchanger,775.1,56.61,114.44
+Equipment_94,Heat Exchanger,57.74,75.59,83.3
+Equipment_95,Pump,385.35,38.4,688.64
+Equipment_96,Valve,640.25,49.69,602.85
+Equipment_97,Valve,604.22,33.28,664.92
+Equipment_98,Heat Exchanger,261.27,62.56,537.11
+Equipment_99,Pump,507.47,33.5,645.83
+Equipment_100,Reactor,131.76,33.21,246.76
+Equipment_101,Heat Exchanger,725.4,1.89,408.08
+Equipment_102,Compressor,656.16,53.77,391.16
+Equipment_103,Distillation Column,178.47,27.15,571.72
+Equipment_104,Pump,209.47,71.05,400.22
+Equipment_105,Heat Exchanger,404.32,24.38,413.52
+Equipment_106,Valve,570.9,76.2,320.54
+Equipment_107,Heat Exchanger,207.9,62.57,377.84
+Equipment_108,Reactor,652.21,9.67,462.02
+Equipment_109,Reactor,56.48,73.08,297.9
+Equipment_110,Valve,91.2,27.77,340.06
+Equipment_111,Valve,319.63,60.86,599.88
+Equipment_112,Valve,780.73,35.73,353.4
+Equipment_113,Heat Exchanger,439.07,66.28,232.91
+Equipment_114,Pump,393.99,12.0,677.17
+Equipment_115,Valve,780.65,2.69,423.4
+Equipment_116,Pump,19.12,23.24,40.31
+Equipment_117,Pump,324.52,45.98,121.48
+Equipment_118,Distillation Column,604.65,42.67,109.23
+Equipment_119,Compressor,285.12,48.51,238.16
+Equipment_120,Heat Exchanger,206.19,37.78,96.24
+Equipment_121,Distillation Column,363.86,14.1,537.65
+Equipment_122,Valve,393.07,67.37,553.03
+Equipment_123,Valve,654.78,67.4,69.75
+Equipment_124,Valve,305.75,49.25,174.55
+Equipment_125,Pump,486.39,16.89,103.29
+Equipment_126,Reactor,185.91,55.96,109.14
+Equipment_127,Distillation Column,18.01,76.57,51.3
+Equipment_128,Pump,773.76,44.86,38.27
+Equipment_129,Pump,125.42,16.24,545.12
+Equipment_130,Heat Exchanger,340.59,12.04,646.47
+Equipment_131,Reactor,101.2,2.9,418.89
+Equipment_132,Pump,799.25,65.81,667.63
+Equipment_133,Compressor,422.08,5.97,386.8
+Equipment_134,Heat Exchanger,72.17,10.22,675.36
+Equipment_135,Pump,513.57,60.39,46.06
+Equipment_136,Compressor,505.85,63.26,644.94
+Equipment_137,Distillation Column,655.96,50.68,338.99
+Equipment_138,Valve,530.72,5.24,674.45
+Equipment_139,Distillation Column,655.97,72.78,223.24
+Equipment_140,Heat Exchanger,132.03,36.92,222.75
+Equipment_141,Pump,620.45,45.95,566.47
+Equipment_142,Heat Exchanger,392.25,72.7,313.55
+Equipment_143,Heat Exchanger,495.59,75.78,158.03
+Equipment_144,Distillation Column,226.22,13.48,82.73
+Equipment_145,Pump,794.26,40.52,377.55
+Equipment_146,Valve,100.57,48.21,378.07
+Equipment_147,Pump,432.89,4.48,676.28
+Equipment_148,Compressor,66.86,4.71,262.28
+Equipment_149,Distillation Column,186.63,46.34,301.25
+Equipment_150,Valve,535.18,14.36,334.8
+Equipment_151,Reactor,16.15,51.69,691.01
+Equipment_152,Compressor,749.69,44.33,307.17
+Equipment_153,Reactor,738.52,11.5,189.9
+Equipment_154,Pump,694.2,69.57,29.29
+Equipment_155,Heat Exchanger,776.98,52.58,618.62
+Equipment_156,Valve,630.06,7.15,322.04
+Equipment_157,Heat Exchanger,734.94,24.96,251.19
+Equipment_158,Heat Exchanger,99.81,34.78,502.49
+Equipment_159,Heat Exchanger,304.45,72.07,147.08
+Equipment_160,Reactor,129.65,25.2,481.69
+Equipment_161,Compressor,669.42,21.52,614.0
+Equipment_162,Distillation Column,758.18,52.79,408.28
+Equipment_163,Reactor,421.35,72.89,283.43
+Equipment_164,Valve,281.68,51.02,111.38
+Equipment_165,Heat Exchanger,667.13,33.14,603.59
+Equipment_166,Heat Exchanger,658.34,27.01,690.09
+Equipment_167,Heat Exchanger,60.94,10.12,358.48
+Equipment_168,Pump,342.44,56.07,20.9
+Equipment_169,Reactor,93.3,23.08,74.13
+Equipment_170,Compressor,386.59,32.75,463.32
+Equipment_171,Reactor,463.7,51.08,74.1
+Equipment_172,Heat Exchanger,49.45,6.73,659.93
+Equipment_173,Pump,632.91,54.02,149.88
+Equipment_174,Pump,216.91,22.78,415.61
+Equipment_175,Heat Exchanger,642.0,5.27,341.33
+Equipment_176,Pump,571.68,39.47,555.43
+Equipment_177,Heat Exchanger,194.8,28.56,193.75
+Equipment_178,Heat Exchanger,646.26,23.3,407.93
+Equipment_179,Distillation Column,479.85,4.12,542.65
+Equipment_180,Reactor,290.16,16.57,417.89
+Equipment_181,Distillation Column,163.64,29.61,646.13
+Equipment_182,Pump,145.06,51.35,332.27
+Equipment_183,Compressor,685.02,55.21,258.48
+Equipment_184,Heat Exchanger,707.06,62.06,375.7
+Equipment_185,Heat Exchanger,621.9,60.46,460.68
+Equipment_186,Compressor,549.41,41.23,96.64
+Equipment_187,Pump,158.99,34.07,677.16
+Equipment_188,Reactor,484.75,69.4,499.49
+Equipment_189,Heat Exchanger,77.22,55.15,293.52
+Equipment_190,Reactor,517.52,32.45,628.14
+Equipment_191,Heat Exchanger,542.11,26.95,447.09
+Equipment_192,Pump,377.22,56.95,616.13
+Equipment_193,Distillation Column,124.37,52.09,198.12
+Equipment_194,Pump,68.15,53.05,504.64
+Equipment_195,Reactor,211.64,46.36,388.96
+Equipment_196,Heat Exchanger,72.94,45.95,542.12
+Equipment_197,Distillation Column,615.39,5.46,260.73
+Equipment_198,Pump,70.19,38.98,41.86
+Equipment_199,Distillation Column,312.52,78.07,302.02
+Equipment_200,Compressor,607.02,39.17,85.24
+Equipment_201,Pump,263.44,50.87,280.71
+Equipment_202,Compressor,684.95,73.91,550.78
+Equipment_203,Reactor,363.41,78.72,364.91
+Equipment_204,Heat Exchanger,170.26,24.41,76.76
+Equipment_205,Compressor,582.69,9.22,662.76
+Equipment_206,Distillation Column,490.17,37.07,371.74
+Equipment_207,Distillation Column,756.03,40.66,572.57
+Equipment_208,Valve,663.86,64.03,497.28
+Equipment_209,Pump,115.57,37.22,140.31
+Equipment_210,Distillation Column,764.26,51.46,565.27
+Equipment_211,Distillation Column,605.84,28.53,415.55
+Equipment_212,Reactor,358.42,10.07,430.34
+Equipment_213,Pump,434.81,58.09,388.17
+Equipment_214,Valve,520.8,23.76,162.9
+Equipment_215,Valve,133.64,63.32,505.61
+Equipment_216,Reactor,229.69,53.16,60.82
+Equipment_217,Compressor,392.16,2.45,660.13
+Equipment_218,Compressor,301.51,63.35,562.81
+Equipment_219,Heat Exchanger,656.21,70.63,66.91
+Equipment_220,Heat Exchanger,142.89,19.57,36.77
+Equipment_221,Compressor,522.2,59.15,115.47
+Equipment_222,Pump,82.11,3.42,262.17
+Equipment_223,Pump,454.19,63.28,504.96
+Equipment_224,Compressor,648.87,40.14,81.79
+Equipment_225,Heat Exchanger,166.27,17.88,489.75
+Equipment_226,Distillation Column,296.57,21.78,420.3
+Equipment_227,Distillation Column,660.55,78.86,666.18
+Equipment_228,Distillation Column,565.6,40.37,299.28
+Equipment_229,Valve,271.04,66.14,94.69
+Equipment_230,Distillation Column,148.64,58.63,199.1
+Equipment_231,Compressor,317.22,0.93,565.88
+Equipment_232,Valve,776.28,34.75,177.97
+Equipment_233,Reactor,654.0,79.64,473.0
+Equipment_234,Compressor,485.89,15.72,66.71
+Equipment_235,Distillation Column,412.12,2.39,457.89
+Equipment_236,Distillation Column,727.66,50.55,418.01
+Equipment_237,Heat Exchanger,213.37,59.91,191.69
+Equipment_238,Compressor,32.52,65.73,626.25
+Equipment_239,Valve,243.9,60.42,484.54
+Equipment_240,Distillation Column,660.68,61.45,560.66
+Equipment_241,Pump,347.68,76.23,176.36
+Equipment_242,Distillation Column,328.83,78.8,678.06
+Equipment_243,Distillation Column,312.83,18.8,91.1
+Equipment_244,Heat Exchanger,176.06,10.28,323.89
+Equipment_245,Reactor,400.69,74.94,627.88
+Equipment_246,Valve,13.47,40.69,184.97
+Equipment_247,Compressor,626.49,7.52,278.86
+Equipment_248,Compressor,396.47,74.1,130.51
+Equipment_249,Distillation Column,557.16,32.34,506.68
+Equipment_250,Compressor,463.94,55.59,163.07
+Equipment_251,Compressor,78.23,21.85,138.33
+Equipment_252,Valve,159.28,7.33,151.88
+Equipment_253,Pump,150.17,12.53,173.59
+Equipment_254,Distillation Column,255.3,61.68,367.28
+Equipment_255,Distillation Column,538.93,6.65,503.08
+Equipment_256,Compressor,86.3,69.36,456.95
+Equipment_257,Heat Exchanger,146.28,77.09,26.11
+Equipment_258,Valve,11.65,43.35,469.96
+Equipment_259,Valve,107.63,63.99,672.2
+Equipment_260,Distillation Column,57.01,70.54,345.63
+Equipment_261,Reactor,257.62,47.54,676.44
+Equipment_262,Reactor,8.53,69.25,388.67
+Equipment_263,Pump,563.99,45.02,52.46
+Equipment_264,Distillation Column,360.47,34.39,312.8
+Equipment_265,Reactor,739.95,28.24,693.47
+Equipment_266,Heat Exchanger,251.4,33.98,591.19
+Equipment_267,Heat Exchanger,187.79,60.19,450.67
+Equipment_268,Compressor,54.2,73.38,26.07
+Equipment_269,Reactor,755.61,43.61,194.44
+Equipment_270,Compressor,384.86,39.9,143.67
+Equipment_271,Reactor,507.91,9.27,415.55
+Equipment_272,Valve,298.28,22.13,36.98
+Equipment_273,Heat Exchanger,697.97,45.75,656.24
+Equipment_274,Valve,552.91,43.46,247.68
+Equipment_275,Heat Exchanger,475.83,19.36,121.86
+Equipment_276,Distillation Column,755.55,27.61,162.49
+Equipment_277,Heat Exchanger,428.44,8.33,621.94
+Equipment_278,Valve,234.99,9.09,514.68
+Equipment_279,Valve,176.81,40.81,325.26
+Equipment_280,Heat Exchanger,715.98,72.76,529.73
+Equipment_281,Distillation Column,640.31,10.85,218.3
+Equipment_282,Valve,445.04,60.75,546.7
+Equipment_283,Compressor,727.69,34.97,570.16
+Equipment_284,Reactor,145.89,25.29,94.8
+Equipment_285,Pump,327.94,59.31,361.7
+Equipment_286,Valve,315.34,78.17,407.21
+Equipment_287,Heat Exchanger,50.37,28.62,43.49
+Equipment_288,Compressor,722.62,42.55,111.57
+Equipment_289,Pump,343.56,24.04,641.65
+Equipment_290,Pump,425.17,41.47,622.0
+Equipment_291,Heat Exchanger,154.72,11.1,430.87
+Equipment_292,Pump,255.59,9.03,137.52
+Equipment_293,Pump,791.94,10.07,337.37
+Equipment_294,Valve,705.77,62.91,40.76
+Equipment_295,Valve,243.44,38.23,198.54
+Equipment_296,Distillation Column,123.78,3.7,89.04
+Equipment_297,Pump,355.35,54.45,688.13
+Equipment_298,Reactor,546.47,52.54,505.79
+Equipment_299,Distillation Column,200.66,26.96,537.74
+Equipment_300,Heat Exchanger,503.64,43.37,81.62
+Equipment_301,Heat Exchanger,283.02,24.27,173.02
+Equipment_302,Reactor,235.8,75.79,567.31
+Equipment_303,Distillation Column,163.59,62.14,634.46
+Equipment_304,Heat Exchanger,247.02,16.63,273.73
+Equipment_305,Distillation Column,369.93,22.21,395.45
+Equipment_306,Reactor,606.48,31.03,120.56
+Equipment_307,Heat Exchanger,467.16,75.44,189.75
+Equipment_308,Compressor,446.06,25.44,220.14
+Equipment_309,Compressor,79.07,51.01,635.68
+Equipment_310,Compressor,320.52,73.0,468.87
+Equipment_311,Distillation Column,283.49,62.31,320.11
+Equipment_312,Compressor,741.96,72.25,617.39
+Equipment_313,Compressor,699.63,54.77,165.86
+Equipment_314,Heat Exchanger,34.28,18.17,661.61
+Equipment_315,Distillation Column,345.05,6.68,650.39
+Equipment_316,Valve,110.51,75.59,403.77
+Equipment_317,Pump,510.43,68.37,112.64
+Equipment_318,Heat Exchanger,62.78,65.15,193.31
+Equipment_319,Reactor,558.29,71.45,400.96
+Equipment_320,Pump,526.47,55.39,488.49
+Equipment_321,Distillation Column,211.9,21.75,475.31
+Equipment_322,Distillation Column,142.09,55.86,604.19
+Equipment_323,Reactor,759.87,45.91,541.24
+Equipment_324,Pump,448.93,70.28,209.7
+Equipment_325,Distillation Column,394.61,0.88,266.02
+Equipment_326,Compressor,483.66,72.1,228.0
+Equipment_327,Reactor,620.76,24.23,654.64
+Equipment_328,Pump,274.17,50.89,517.22
+Equipment_329,Compressor,725.57,70.56,520.08
+Equipment_330,Pump,530.27,63.66,480.51
+Equipment_331,Valve,527.01,60.6,123.78
+Equipment_332,Heat Exchanger,664.91,71.27,619.97
+Equipment_333,Valve,68.86,7.25,177.63
+Equipment_334,Valve,786.01,36.35,228.37
+Equipment_335,Distillation Column,567.74,14.34,107.56
+Equipment_336,Valve,464.26,65.53,395.51
+Equipment_337,Valve,583.51,29.21,324.05
+Equipment_338,Compressor,583.06,46.79,524.42
+Equipment_339,Compressor,727.54,44.21,586.94
+Equipment_340,Reactor,288.96,73.58,44.48
+Equipment_341,Reactor,72.26,55.94,494.97
+Equipment_342,Valve,515.6,44.51,659.98
+Equipment_343,Valve,495.33,36.68,241.02
+Equipment_344,Heat Exchanger,560.2,45.1,431.89
+Equipment_345,Distillation Column,440.35,61.92,356.01
+Equipment_346,Compressor,732.82,65.3,618.58
+Equipment_347,Distillation Column,528.9,18.44,579.23
+Equipment_348,Heat Exchanger,504.26,76.01,56.8
+Equipment_349,Compressor,95.9,67.82,473.2
+Equipment_350,Compressor,677.19,43.16,196.25
+Equipment_351,Heat Exchanger,727.59,33.51,26.16
+Equipment_352,Reactor,661.04,2.93,144.0
+Equipment_353,Pump,602.99,30.68,437.01
+Equipment_354,Compressor,464.53,3.99,342.52
+Equipment_355,Heat Exchanger,279.02,30.57,56.78
+Equipment_356,Reactor,717.66,75.35,437.01
+Equipment_357,Reactor,85.83,15.76,179.37
+Equipment_358,Valve,398.71,13.82,654.26
+Equipment_359,Distillation Column,231.75,55.6,78.31
+Equipment_360,Reactor,511.52,29.11,171.26
+Equipment_361,Valve,355.93,1.3,321.51
+Equipment_362,Valve,526.65,78.96,123.27
+Equipment_363,Reactor,627.87,46.32,475.11
+Equipment_364,Distillation Column,120.45,62.96,154.69
+Equipment_365,Pump,687.91,62.92,571.88
+Equipment_366,Heat Exchanger,178.64,16.99,234.04
+Equipment_367,Heat Exchanger,456.24,34.32,637.16
+Equipment_368,Reactor,289.0,51.29,144.65
+Equipment_369,Pump,599.34,35.57,580.28
+Equipment_370,Distillation Column,340.22,1.83,690.09
+Equipment_371,Distillation Column,729.47,67.85,370.12
+Equipment_372,Pump,505.33,74.28,363.96
+Equipment_373,Valve,158.95,6.67,616.23
+Equipment_374,Valve,535.89,20.34,108.59
+Equipment_375,Reactor,231.93,42.88,551.63
+Equipment_376,Distillation Column,77.05,5.9,465.74
+Equipment_377,Valve,738.48,67.67,237.25
+Equipment_378,Compressor,674.29,67.81,319.5
+Equipment_379,Reactor,37.1,45.68,39.7
+Equipment_380,Pump,619.21,3.57,259.15
+Equipment_381,Distillation Column,290.41,1.74,218.53
+Equipment_382,Pump,431.28,18.74,140.14
+Equipment_383,Valve,269.7,74.55,89.93
+Equipment_384,Reactor,70.24,45.65,237.16
+Equipment_385,Distillation Column,232.75,20.44,268.13
+Equipment_386,Pump,27.31,67.69,556.15
+Equipment_387,Valve,40.37,76.32,653.79
+Equipment_388,Compressor,670.71,28.93,578.33
+Equipment_389,Distillation Column,323.22,58.08,58.16
+Equipment_390,Heat Exchanger,750.91,57.1,165.33
+Equipment_391,Valve,136.93,28.71,636.89
+Equipment_392,Reactor,188.28,1.18,585.11
+Equipment_393,Heat Exchanger,631.44,18.88,24.44
+Equipment_394,Pump,100.34,21.26,147.5
+Equipment_395,Pump,690.27,9.18,46.71
+Equipment_396,Compressor,472.12,36.91,110.85
+Equipment_397,Reactor,722.49,58.92,697.24
+Equipment_398,Compressor,165.16,1.01,560.98
+Equipment_399,Heat Exchanger,142.32,33.74,629.29
+Equipment_400,Pump,503.63,20.74,502.37
+Equipment_401,Compressor,280.08,0.5,38.04
+Equipment_402,Heat Exchanger,467.92,49.82,92.69
+Equipment_403,Heat Exchanger,410.84,45.19,331.65
+Equipment_404,Reactor,110.06,63.88,234.66
+Equipment_405,Heat Exchanger,666.93,22.99,401.86
+Equipment_406,Distillation Column,539.16,38.54,82.06
+Equipment_407,Heat Exchanger,160.28,51.75,341.97
+Equipment_408,Distillation Column,376.12,39.84,167.56
+Equipment_409,Valve,299.47,11.31,526.41
+Equipment_410,Distillation Column,26.91,12.74,34.22
+Equipment_411,Pump,662.21,6.68,134.26
+Equipment_412,Compressor,108.49,73.94,315.89
+Equipment_413,Heat Exchanger,259.21,7.33,53.94
+Equipment_414,Heat Exchanger,105.04,70.71,553.95
+Equipment_415,Reactor,546.73,71.84,572.56
+Equipment_416,Distillation Column,739.64,35.13,439.44
+Equipment_417,Compressor,415.28,70.43,634.85
+Equipment_418,Valve,227.14,11.92,82.86
+Equipment_419,Compressor,84.71,41.79,439.53
+Equipment_420,Valve,390.55,24.69,582.97
+Equipment_421,Distillation Column,574.32,36.79,462.03
+Equipment_422,Heat Exchanger,122.27,74.22,313.94
+Equipment_423,Valve,111.65,35.94,687.49
+Equipment_424,Compressor,241.58,28.72,620.07
+Equipment_425,Distillation Column,585.3,65.64,644.09
+Equipment_426,Heat Exchanger,121.87,79.13,659.66
+Equipment_427,Valve,147.86,29.59,178.09
+Equipment_428,Heat Exchanger,630.8,47.81,45.71
+Equipment_429,Reactor,263.97,61.32,167.31
+Equipment_430,Valve,535.61,59.07,271.97
+Equipment_431,Valve,149.2,5.24,165.99
+Equipment_432,Valve,477.99,54.03,344.34
+Equipment_433,Heat Exchanger,155.6,35.3,602.46
+Equipment_434,Valve,561.73,2.68,445.57
+Equipment_435,Reactor,55.93,48.33,348.27
+Equipment_436,Heat Exchanger,246.13,42.9,467.48
+Equipment_437,Pump,315.6,5.0,193.43
+Equipment_438,Compressor,772.61,6.45,559.27
+Equipment_439,Distillation Column,455.23,47.2,442.49
+Equipment_440,Compressor,475.81,64.21,598.74
+Equipment_441,Reactor,259.87,24.58,583.22
+Equipment_442,Reactor,90.27,50.43,21.01
+Equipment_443,Heat Exchanger,727.6,6.66,364.45
+Equipment_444,Valve,624.71,29.41,478.45
+Equipment_445,Compressor,524.35,51.19,642.39
+Equipment_446,Heat Exchanger,152.33,31.03,272.0
+Equipment_447,Reactor,365.52,71.71,80.92
+Equipment_448,Pump,791.14,20.3,483.62
+Equipment_449,Pump,117.96,78.23,276.87
+Equipment_450,Reactor,659.2,20.0,180.32
+Equipment_451,Pump,367.68,31.44,317.95
+Equipment_452,Reactor,397.18,56.13,176.29
+Equipment_453,Pump,443.59,24.58,678.2
+Equipment_454,Pump,438.83,32.36,128.93
+Equipment_455,Pump,541.95,11.38,150.78
+Equipment_456,Reactor,208.85,6.78,55.03
+Equipment_457,Heat Exchanger,553.91,34.26,205.45
+Equipment_458,Distillation Column,280.15,5.84,324.58
+Equipment_459,Reactor,408.68,79.77,157.34
+Equipment_460,Pump,573.59,33.7,422.83
+Equipment_461,Pump,65.05,57.32,529.55
+Equipment_462,Distillation Column,332.4,78.17,188.61
+Equipment_463,Heat Exchanger,640.0,73.58,38.34
+Equipment_464,Pump,665.71,56.29,322.26
+Equipment_465,Pump,291.01,18.14,393.32
+Equipment_466,Compressor,720.09,37.9,693.34
+Equipment_467,Compressor,680.98,17.49,667.95
+Equipment_468,Valve,634.48,29.36,488.22
+Equipment_469,Reactor,484.75,32.82,278.81
+Equipment_470,Heat Exchanger,189.7,40.88,152.42
+Equipment_471,Reactor,153.05,75.65,80.35
+Equipment_472,Compressor,745.87,53.94,613.94
+Equipment_473,Reactor,56.92,2.02,403.32
+Equipment_474,Reactor,753.72,20.14,82.86
+Equipment_475,Distillation Column,787.37,9.55,240.25
+Equipment_476,Pump,598.33,16.85,553.35
+Equipment_477,Reactor,403.38,4.72,518.09
+Equipment_478,Compressor,594.94,12.0,576.89
+Equipment_479,Distillation Column,526.77,48.72,226.55
+Equipment_480,Distillation Column,67.43,2.7,296.08
+Equipment_481,Valve,136.58,40.28,205.48
+Equipment_482,Compressor,316.42,20.33,341.79
+Equipment_483,Pump,426.31,68.94,495.46
+Equipment_484,Compressor,505.6,53.39,411.15
+Equipment_485,Valve,685.12,48.41,698.17
+Equipment_486,Compressor,468.4,11.49,34.16
+Equipment_487,Valve,206.71,25.13,304.23
+Equipment_488,Distillation Column,301.22,38.05,251.86
+Equipment_489,Pump,494.62,75.74,380.39
+Equipment_490,Heat Exchanger,780.17,62.46,508.62
+Equipment_491,Heat Exchanger,46.18,37.02,170.24
+Equipment_492,Pump,662.82,8.54,74.19
+Equipment_493,Pump,332.66,10.99,69.46
+Equipment_494,Valve,589.96,73.04,225.35
+Equipment_495,Compressor,170.81,63.37,181.82
+Equipment_496,Reactor,126.53,68.51,421.7
+Equipment_497,Heat Exchanger,640.32,31.67,679.64
+Equipment_498,Distillation Column,197.69,71.89,413.57
+Equipment_499,Valve,682.79,14.88,175.17
+Equipment_500,Valve,422.81,13.81,669.27

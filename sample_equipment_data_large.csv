@@ -1,0 +1,101 @@
+Equipment Name,Type,Flowrate,Pressure,Temperature
+Equipment_1,Compressor,340.86,9.04,390.01
+Equipment_2,Valve,28.06,9.6,219.21
+Equipment_3,Reactor,16.96,7.79,27.17
+Equipment_4,Valve,474.09,17.15,204.02
+Equipment_5,Heat Exchanger,399.46,20.7,124.02
+Equipment_6,Pump,377.07,5.6,58.55
+Equipment_7,Reactor,407.65,39.57,217.59
+Equipment_8,Pump,109.71,26.57,286.89
+Equipment_9,Reactor,104.4,13.1,265.38
+Equipment_10,Pump,263.28,19.91,222.52
+Equipment_11,Reactor,129.58,34.33,294.11
+Equipment_12,Pump,126.77,2.04,21.99
+Equipment_13,Valve,90.77,17.66,129.93
+Equipment_14,Reactor,362.04,23.21,159.79
+Equipment_15,Heat Exchanger,33.76,27.31,483.99
+Equipment_16,Pump,445.85,18.37,28.31
+Equipment_17,Compressor,359.26,9.02,208.4
+Equipment_18,Pump,433.12,41.58,440.03
+Equipment_19,Reactor,54.1,44.13,176.06
+Equipment_20,Heat Exchanger,158.14,41.65,481.62
+Equipment_21,Pump,321.07,27.34,240.46
+Equipment_22,Heat Exchanger,336.86,9.98,49.27
+Equipment_23,Valve,316.73,20.13,337.32
+Equipment_24,Heat Exchanger,450.1,26.32,302.59
+Equipment_25,Reactor,388.98,24.13,473.86
+Equipment_26,Valve,98.02,22.12,316.54
+Equipment_27,Compressor,451.56,33.83,72.27
+Equipment_28,Compressor,365.9,46.65,33.48
+Equipment_29,Pump,94.76,12.43,147.85
+Equipment_30,Pump,310.86,41.41,447.19
+Equipment_31,Pump,215.1,26.99,203.66
+Equipment_32,Valve,148.21,36.34,33.48
+Equipment_33,Reactor,71.28,26.94,158.89
+Equipment_34,Compressor,96.39,10.65,392.89
+Equipment_35,Heat Exchanger,409.15,10.32,101.76
+Equipment_36,Compressor,398.93,49.18,263.78
+Equipment_37,Valve,120.16,36.54,247.16
+Equipment_38,Valve,44.51,45.43,66.38
+Equipment_39,Reactor,285.09,31.69,299.0
+Equipment_40,Heat Exchanger,434.58,18.74,364.54
+Equipment_41,Compressor,35.24,42.97,98.37
+Equipment_42,Compressor,258.12,2.48,136.26
+Equipment_43,Compressor,101.54,16.55,157.24
+Equipment_44,Reactor,487.64,47.56,322.19
+Equipment_45,Valve,141.52,9.41,280.74
+Equipment_46,Reactor,214.16,42.64,378.69
+Equipment_47,Pump,67.5,12.74,211.79
+Equipment_48,Heat Exchanger,389.23,40.86,306.7
+Equipment_49,Compressor,185.62,45.15,424.22
+Equipment_50,Compressor,404.24,20.05,93.09
+Equipment_51,Compressor,133.43,12.39,473.92
+Equipment_52,Valve,316.54,45.65,402.35
+Equipment_53,Reactor,388.51,24.85,27.15
+Equipment_54,Heat Exchanger,108.54,47.63,104.71
+Equipment_55,Heat Exchanger,45.63,35.35,40.18
+Equipment_56,Pump,209.68,12.02,237.42
+Equipment_57,Heat Exchanger,23.09,28.43,257.08
+Equipment_58,Valve,221.0,20.81,276.51
+Equipment_59,Heat Exchanger,419.55,39.3,70.82
+Equipment_60,Compressor,440.88,29.23,446.89
+Equipment_61,Pump,202.79,37.85,226.0
+Equipment_62,Heat Exchanger,483.59,2.15,312.43
+Equipment_63,Pump,385.94,44.67,492.91
+Equipment_64,Reactor,387.88,15.9,77.79
+Equipment_65,Heat Exchanger,224.68,41.25,420.62
+Equipment_66,Compressor,18.29,21.88,323.57
+Equipment_67,Pump,451.04,4.45,102.09
+Equipment_68,Pump,235.58,30.44,208.62
+Equipment_69,Valve,140.59,5.18,248.12
+Equipment_70,Compressor,100.2,33.33,115.45
+Equipment_71,Heat Exchanger,318.07,4.44,173.34
+Equipment_72,Heat Exchanger,83.78,27.25,397.46
+Equipment_73,Pump,279.02,37.59,468.79
+Equipment_74,Pump,163.54,1.2,72.88
+Equipment_75,Pump,55.11,11.8,301.23
+Equipment_76,Heat Exchanger,310.46,29.14,134.94
+Equipment_77,Pump,410.43,8.68,426.89
+Equipment_78,Reactor,98.54,8.04,120.37
+Equipment_79,Compressor,28.45,4.97,114.2
+Equipment_80,Pump,362.99,1.27,492.79
+Equipment_81,Reactor,498.26,38.47,483.59
+Equipment_82,Pump,367.6,12.63,355.36
+Equipment_83,Valve,69.64,14.04,63.09
+Equipment_84,Valve,242.63,30.41,250.89
+Equipment_85,Reactor,326.44,40.56,83.68
+Equipment_86,Reactor,406.64,7.55,81.52
+Equipment_87,Compressor,369.92,36.8,273.24
+Equipment_88,Reactor,486.21,18.44,491.29
+Equipment_89,Pump,45.18,12.81,302.34
+Equipment_90,Reactor,43.68,43.6,288.14
+Equipment_91,Compressor,291.6,13.95,473.77
+Equipment_92,Heat Exchanger,405.67,6.49,416.59
+Equipment_93,Heat Exchanger,392.3,46.09,433.1
+Equipment_94,Pump,382.74,40.02,170.54
+Equipment_95,Reactor,89.31,8.7,470.16
+Equipment_96,Heat Exchanger,191.14,35.6,88.61
+Equipment_97,Heat Exchanger,485.64,19.55,391.95
+Equipment_98,Reactor,494.47,43.65,87.61
+Equipment_99,Reactor,111.63,30.58,373.62
+Equipment_100,Reactor,321.25,30.69,51.66

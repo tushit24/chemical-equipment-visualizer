@@ -28,7 +28,6 @@ This project provides:
 
 ---
 
-## 🏗️ System Architecture
 
 ## 🏗 System Architecture
 
@@ -128,7 +127,7 @@ The uploaded CSV file must contain the following columns:
 | Pressure | Pressure value |
 | Temperature | Temperature value |
 
-A sample file `sample_equipment_data.csv` is included for testing.
+ Sample files `sample_equipment_data.csv`, 'sample_equipment_data_large.csv' and 'sample_equipment_data_xlarge.csv'  is included for testing.
 
 ---
 
