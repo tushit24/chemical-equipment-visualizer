@@ -1,6 +1,8 @@
 import pandas as pd
 
 from django.http import FileResponse
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -13,11 +15,13 @@ from .serializers import DatasetSerializer
 from .pdf_utils import generate_dataset_pdf
 
 
+@method_decorator(csrf_exempt, name="dispatch")
 class CSVUploadView(APIView):
+    permission_classes = [IsAuthenticated]
     parser_classes = (MultiPartParser, FormParser)
 
     def post(self, request):
-        file = request.FILES.get('file')
+        file = request.FILES.get("file")
 
         if not file:
             return Response({"error": "CSV file is required"}, status=400)
@@ -29,28 +33,27 @@ class CSVUploadView(APIView):
 
         summary = {
             "total_equipment": len(df),
-            "average_flowrate": round(df['Flowrate'].mean(), 2),
-            "average_pressure": round(df['Pressure'].mean(), 2),
-            "average_temperature": round(df['Temperature'].mean(), 2),
-            "equipment_type_distribution": df['Type'].value_counts().to_dict()
+            "average_flowrate": round(df["Flowrate"].mean(), 2),
+            "average_pressure": round(df["Pressure"].mean(), 2),
+            "average_temperature": round(df["Temperature"].mean(), 2),
+            "equipment_type_distribution": df["Type"].value_counts().to_dict(),
         }
 
-        # Save to DB
         Dataset.objects.create(
             filename=file.name,
             total_equipment=summary["total_equipment"],
             average_flowrate=summary["average_flowrate"],
             average_pressure=summary["average_pressure"],
             average_temperature=summary["average_temperature"],
-            type_distribution=summary["equipment_type_distribution"]
+            type_distribution=summary["equipment_type_distribution"],
         )
 
         return Response(summary)
 
 
 class DatasetHistoryView(ListAPIView):
-    permission_classes = [IsAuthenticated]   # 🔒 Token protected
-    queryset = Dataset.objects.order_by('-uploaded_at')[:5]
+    permission_classes = [IsAuthenticated]
+    queryset = Dataset.objects.order_by("-uploaded_at")[:5]
     serializer_class = DatasetSerializer
 
 
@@ -64,9 +67,11 @@ class DatasetPDFView(APIView):
             return Response({"error": "Dataset not found"}, status=404)
 
         pdf_buffer = generate_dataset_pdf(dataset)
+        pdf_buffer.seek(0)
 
         return FileResponse(
             pdf_buffer,
             as_attachment=True,
-            filename=f"{dataset.filename}_report.pdf"
+            filename=f"{dataset.filename}_report.pdf",
+            content_type="application/pdf",
         )

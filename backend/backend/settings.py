@@ -17,7 +17,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # --------------------------------------------------
 SECRET_KEY = 'django-insecure-$7_raf9x&iga7uaf03ra7314y5oq#sqe&i%!$$*kdu94+2z0uc'
 DEBUG = True
-ALLOWED_HOSTS = []
+
+# ✅ FIXED: Allow React + local network access
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "192.168.29.129",   # your LAN IP (React runs here)
+]
 
 
 # --------------------------------------------------
@@ -49,12 +55,16 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+
+    # CSRF kept ON (we exempt upload view only)
     'django.middleware.csrf.CsrfViewMiddleware',
+
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# ✅ Allow React / Desktop apps
 CORS_ALLOW_ALL_ORIGINS = True
 
 

@@ -26,14 +26,47 @@ export default function Charts({ dataset }) {
         label: "Equipment Count",
         data: Object.values(dataset.type_distribution),
         backgroundColor: "rgba(54, 162, 235, 0.7)",
+        borderRadius: 6,
       },
     ],
   };
 
+  const options = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: "top",
+      },
+      title: {
+        display: true,
+        text: "Equipment Type Distribution",
+        font: {
+          size: 16,
+          weight: "bold",
+        },
+      },
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        ticks: {
+          stepSize: 1,
+        },
+      },
+    },
+  };
+
   return (
-    <div style={{ width: "600px", marginTop: "30px" }}>
-      <h2>Equipment Type Distribution</h2>
-      <Bar data={typeData} />
+    <div
+      style={{
+        width: "100%",
+        maxWidth: "700px",
+        height: "400px",
+        marginTop: "30px",
+      }}
+    >
+      <Bar data={typeData} options={options} />
     </div>
   );
 }
