@@ -10,7 +10,7 @@ It allows users to upload CSV files containing chemical equipment data, performs
 
 Both the Web and Desktop applications consume the **same Django REST API**, ensuring consistency and reusability of backend logic.
 
-This project was developed as part of the **FOSSEE Semester Internship Screening Task (2026)**.
+
 
 ---
 
@@ -234,4 +234,3 @@ Backend setup instructions are provided in the following sections of this README
 
 ### Author
 Tushit Tiwari 
-For FOSSEE(2026)
